@@ -1,0 +1,13 @@
+#556 minecraft:beach
+#47F minecraft:birch_forest
+#3DE minecraft:deep_ocean
+#010 minecraft:forest
+#286 minecraft:grove
+#51E minecraft:jagged_peaks
+#4B0 minecraft:jungle
+#79A minecraft:lukewarm_ocean
+#2D6 minecraft:meadow
+#4F1 minecraft:ocean
+#1DF minecraft:old_growth_birch_forest
+#5FF minecraft:river
+#51A minecraft:stony_shore

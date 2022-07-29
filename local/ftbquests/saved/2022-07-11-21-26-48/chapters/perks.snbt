@@ -1,0 +1,597 @@
+{
+	id: "7B71323498ACBC65"
+	group: "0E7F30F354FA6BBD"
+	order_index: 0
+	filename: "perks"
+	title: "Perks"
+	icon: "minecraft:ender_pearl"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			size: 2.0d
+			id: "6B76929C5447507B"
+			tasks: [{
+				id: "43E5AA3D8C586F67"
+				type: "checkmark"
+				title: "Welcome to Perks"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			dependencies: ["381151710C3DA0EA"]
+			id: "05ACE6FF32CD55CC"
+			tasks: [{
+				id: "72F7F152E5AF3BE1"
+				type: "item"
+				item: "create:millstone"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 1.0d
+			id: "6F74256056AF3088"
+			tasks: [
+				{
+					id: "538488EE7432C66E"
+					type: "item"
+					item: "minecraft:bone"
+				}
+				{
+					id: "31F9E2FBFC6FAD43"
+					type: "item"
+					item: "minecraft:bone_meal"
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -1.0d
+			id: "3AFA4AD5083CCE2F"
+			tasks: [
+				{
+					id: "6339E9DB08D3AE7C"
+					type: "item"
+					title: "Any #minecraft:leaves"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:leaves"
+						}
+					}
+				}
+				{
+					id: "5C76D0FFBCB27530"
+					type: "item"
+					item: "minecraft:green_dye"
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 0.0d
+			id: "4DB17A923CB1357F"
+			tasks: [
+				{
+					id: "55223DBB93C1F823"
+					type: "item"
+					item: "minecraft:wheat"
+				}
+				{
+					id: "7B4A6E7DF728CF96"
+					type: "item"
+					item: "create:wheat_flour"
+				}
+				{
+					id: "0914323526F0C253"
+					type: "item"
+					item: "create:dough"
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: -0.5d
+			id: "40D971BEC503A980"
+			tasks: [{
+				id: "01FC681C6F08E0DA"
+				type: "item"
+				item: "minecraft:slime_ball"
+			}]
+		}
+		{
+			x: -8.0d
+			y: 0.5d
+			id: "7F71F5B8D4A4F561"
+			tasks: [{
+				id: "50796BACF623560D"
+				type: "item"
+				item: "kibe:kibe"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -2.5d
+			dependencies: ["2611355310DAB5C2"]
+			id: "7E85F4D28E175040"
+			tasks: [{
+				id: "279CD1BD61A1A378"
+				type: "item"
+				item: "create:mechanical_saw"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -2.5d
+			id: "216F7578F148F358"
+			tasks: [{
+				id: "77E8EFF60350DAEA"
+				type: "item"
+				item: "modern_industrialization:gold_rod"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -1.5d
+			optional: true
+			id: "07B68B631F5BA5E0"
+			tasks: [
+				{
+					id: "7A959F882A1E944C"
+					type: "item"
+					item: "minecraft:lead"
+				}
+				{
+					id: "6A4D6B7AEB626ABD"
+					type: "item"
+					item: {
+						id: "kibe:golden_lasso"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			x: -11.5d
+			y: 0.5d
+			id: "0CCECB1E825F0004"
+			tasks: [{
+				id: "33DEC1DF67B66C37"
+				type: "item"
+				item: "kibe:golden_kibe"
+			}]
+		}
+		{
+			x: -15.5d
+			y: 0.5d
+			id: "7FA68CDA564BE856"
+			tasks: [{
+				id: "63239D406C70BF11"
+				type: "item"
+				item: "kibe:diamond_kibe"
+			}]
+		}
+		{
+			x: -19.5d
+			y: 0.5d
+			id: "7D5B1FB1377BF423"
+			tasks: [{
+				id: "1C9EA53B4F4A8330"
+				type: "item"
+				item: "kibe:cursed_kibe"
+			}]
+		}
+		{
+			x: -11.5d
+			y: 3.0d
+			id: "6CF3F362AA7A0F12"
+			tasks: [{
+				id: "68125B0A09F82AC4"
+				type: "item"
+				item: "kibe:magnet"
+			}]
+		}
+		{
+			x: -12.5d
+			y: 3.0d
+			id: "441D73F53AA630BD"
+			tasks: [
+				{
+					id: "0785DBDD3BA40A96"
+					type: "item"
+					item: "kibe:slime_sling"
+				}
+				{
+					id: "144F9A96A2245747"
+					type: "item"
+					item: {
+						id: "kibe:slime_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: 3.0d
+			id: "4B931D5FEE47A705"
+			tasks: [
+				{
+					id: "79B67CE9B28473A4"
+					type: "item"
+					item: "kibe:glider_left_wing"
+				}
+				{
+					id: "0E4363AD911BCB49"
+					type: "item"
+					item: "kibe:glider_right_wing"
+				}
+			]
+		}
+		{
+			x: -12.5d
+			y: 4.0d
+			id: "4281951E4950E3C7"
+			tasks: [{
+				id: "0FC15F72576A3712"
+				type: "item"
+				item: "kibe:cooler"
+			}]
+		}
+		{
+			x: -11.5d
+			y: 4.0d
+			id: "59F48A5A1627B6E3"
+			tasks: [{
+				id: "596707AFE5D6811D"
+				type: "item"
+				item: {
+					id: "timeinabottle:time_in_a_bottle"
+					Count: 1b
+					tag: {
+						timeData: { }
+					}
+				}
+			}]
+		}
+		{
+			x: -10.5d
+			y: 4.0d
+			id: "31C5D50E9638DDE4"
+			tasks: [
+				{
+					id: "09777DA20712D2AF"
+					type: "item"
+					item: "kibe:xp_drain"
+				}
+				{
+					id: "18FAAA1686D97332"
+					type: "item"
+					item: "kibe:xp_shower"
+				}
+			]
+		}
+		{
+			x: -15.5d
+			y: 3.0d
+			id: "664BAD1D9DB2CB38"
+			tasks: [{
+				id: "278D47A68A37DD66"
+				type: "item"
+				item: {
+					id: "kibe:magma_ring"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -14.5d
+			y: 3.0d
+			id: "781374715B7A9FED"
+			tasks: [{
+				id: "2E12F2BCE0A370A0"
+				type: "item"
+				item: {
+					id: "kibe:water_ring"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -16.5d
+			y: 3.0d
+			id: "2B0ADD801EDFBFAA"
+			tasks: [{
+				id: "14B97EAAB8FB3ACB"
+				type: "item"
+				item: "kibe:light_ring"
+			}]
+		}
+		{
+			x: -19.5d
+			y: 3.0d
+			id: "2BD7FFF025651FBF"
+			tasks: [{
+				id: "73AD02E48E569982"
+				type: "item"
+				item: {
+					id: "kibe:angel_ring"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			id: "00A856BF79735307"
+			tasks: [{
+				id: "17A18ABD5C00FA42"
+				type: "item"
+				item: "kubejs:mob_slaughtering_drill"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			id: "3724FB5B3F7621B8"
+			tasks: [
+				{
+					id: "0FAC21E23963ACFC"
+					type: "item"
+					item: "minecraft:blaze_rod"
+				}
+				{
+					id: "0E5E6533EB9A50A7"
+					type: "item"
+					item: "minecraft:ender_pearl"
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -2.0d
+			id: "1E587ADB4B291521"
+			tasks: [{
+				id: "1BEF55709ACDAB51"
+				type: "item"
+				item: "kibe:void_bucket"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -1.5d
+			id: "2F4AE9F144F5E168"
+			tasks: [{
+				id: "45031AEC40AA4621"
+				type: "item"
+				item: "kibe:entangled_bucket"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -0.5d
+			id: "778BB4209C698C93"
+			tasks: [{
+				id: "6EEDD634C71C2782"
+				type: "item"
+				item: "kibe:entangled_tank"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 1.5d
+			id: "2DCAFE39A368433C"
+			tasks: [{
+				id: "7EAC68F30ED11A55"
+				type: "item"
+				item: "kibe:entangled_bag"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.5d
+			id: "520CB800EADA6AA8"
+			tasks: [{
+				id: "7439F2CF304B1EB4"
+				type: "item"
+				item: "kibe:entangled_chest"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 2.0d
+			id: "3742B9EB275AEE42"
+			tasks: [{
+				id: "109682CF8D926AF0"
+				type: "item"
+				title: "Any #kibe:elevators"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "kibe:elevators"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: 0.0d
+			id: "069DD64C517EECBC"
+			tasks: [{
+				id: "01994DD68252BE3E"
+				type: "item"
+				title: "Any #kibe:runes"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "kibe:runes"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: -3.0d
+			id: "65B3180DF44E9EA0"
+			tasks: [{
+				id: "6CDCCDFAE37CE612"
+				type: "item"
+				item: "dankstorage:dank_1"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -4.0d
+			id: "7B02BA35328AE6A3"
+			tasks: [{
+				id: "73705E8CCBF87B82"
+				type: "item"
+				item: "dankstorage:dank_2"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -5.0d
+			id: "587D243BF7830B52"
+			tasks: [{
+				id: "2FDFE66EEE26F4EF"
+				type: "item"
+				item: "dankstorage:dank_3"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -6.0d
+			id: "2DEBC30360CDA4C1"
+			tasks: [{
+				id: "4AA1D89F94B3082C"
+				type: "item"
+				item: "dankstorage:dank_4"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -7.0d
+			id: "318C570666FD43D2"
+			tasks: [{
+				id: "5F41E96F8525116D"
+				type: "item"
+				item: "dankstorage:dank_5"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -8.0d
+			id: "351714A3730F990A"
+			tasks: [{
+				id: "64EEF11929DE29FB"
+				type: "item"
+				item: "dankstorage:dank_6"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -9.0d
+			id: "6199D6AF1EAD8A87"
+			tasks: [{
+				id: "48828216BF4D0CDE"
+				type: "item"
+				item: "dankstorage:dank_7"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			id: "1C4FE8C4327EA4CE"
+			tasks: [{
+				id: "37D36500B2D2BF27"
+				type: "item"
+				item: "minecraft:leather"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.0d
+			id: "0BD007FAC59C378E"
+			tasks: [{
+				id: "58CE2B15549CD703"
+				type: "item"
+				item: "inmis:frayed_backpack"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -4.0d
+			id: "5E86A30D9911F422"
+			tasks: [{
+				id: "69FA601A9FF376EB"
+				type: "item"
+				item: "inmis:plated_backpack"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -5.0d
+			id: "52C518F6E5805C8E"
+			tasks: [{
+				id: "3E6B4C0BF83EF0F7"
+				type: "item"
+				item: "inmis:gilded_backpack"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -6.0d
+			id: "6516680751BA036D"
+			tasks: [{
+				id: "636376899D9A4371"
+				type: "item"
+				item: "inmis:bejeweled_backpack"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -7.0d
+			id: "236F39D2B4BB1834"
+			tasks: [{
+				id: "5166114235DB75C3"
+				type: "item"
+				item: "inmis:blazing_backpack"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -8.0d
+			id: "35A3B19E77336DDE"
+			tasks: [{
+				id: "5E636BB96AB98236"
+				type: "item"
+				item: "inmis:withered_backpack"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -9.0d
+			id: "00ED9532C90F0158"
+			tasks: [{
+				id: "14B50F1BA1A0B810"
+				type: "item"
+				item: "inmis:endless_backpack"
+			}]
+		}
+	]
+}

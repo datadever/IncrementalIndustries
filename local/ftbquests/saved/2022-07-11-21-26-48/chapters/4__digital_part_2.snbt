@@ -1,0 +1,43 @@
+{
+	id: "7A2B736D9D590BD1"
+	group: ""
+	order_index: 5
+	filename: "4__digital_part_2"
+	title: "5 - Nuclear"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			size: 2.0d
+			id: "01D6AC4F7E958022"
+			tasks: [{
+				id: "27F9AF8ED6ED7A69"
+				type: "checkmark"
+				title: "Welcome to the Nuclear Age"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 12.0d
+			id: "76487F82BBFA5075"
+			tasks: [{
+				id: "22254518B09C9FDF"
+				type: "item"
+				item: "modern_industrialization:nuclear_reactor"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 9.5d
+			id: "3B01367632B175B9"
+			tasks: [{
+				id: "248A849A58E47AEA"
+				type: "item"
+				item: "modern_industrialization:processing_unit"
+			}]
+		}
+	]
+}

@@ -1,0 +1,363 @@
+{
+	id: "1A07CED8FE463D6A"
+	group: ""
+	order_index: 4
+	filename: "4__midgame"
+	title: "4 - Digital"
+	icon: "modern_industrialization:digital_circuit"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -1.0d
+			y: -2.0d
+			shape: "gear"
+			size: 2.0d
+			id: "429CB6A97E6AA3A3"
+			tasks: [{
+				id: "3DE3E5F76064D867"
+				type: "checkmark"
+				title: "Scaling Up"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 5.5d
+			id: "4875A0C616E36BDB"
+			tasks: [{
+				id: "0816391E11EF1F0B"
+				type: "item"
+				item: "modern_industrialization:stainless_steel_hot_ingot"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 8.0d
+			id: "2EFA4782FD878A82"
+			tasks: [{
+				id: "6C603EB2FA5216FD"
+				type: "item"
+				item: "modern_industrialization:stainless_steel_ingot"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 4.5d
+			id: "533780AE298FEB69"
+			tasks: [{
+				id: "7AC9A9FC535C051F"
+				type: "item"
+				item: "modern_industrialization:stainless_steel_dust"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 6.5d
+			id: "0200CB385FAEE3B9"
+			tasks: [{
+				id: "10872F1F0CEDC0B1"
+				type: "item"
+				item: "modern_industrialization:vacuum_freezer"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 11.0d
+			id: "672DCCEF4D7357DE"
+			tasks: [{
+				id: "60605BD29CFFF3AC"
+				type: "item"
+				item: "modern_industrialization:digital_circuit"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 11.0d
+			id: "36E9B401FFD8F80D"
+			tasks: [{
+				id: "4624424F9701DC45"
+				type: "item"
+				item: "modern_industrialization:stainless_steel_drill"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 6.5d
+			dependencies: ["0200CB385FAEE3B9"]
+			id: "5AA9997786007432"
+			tasks: [
+				{
+					id: "42295B33D6A199A0"
+					type: "item"
+					item: "modern_industrialization:kanthal_dust"
+				}
+				{
+					id: "31BC761C2AF7B7EA"
+					type: "item"
+					item: "modern_industrialization:kanthal_hot_ingot"
+				}
+				{
+					id: "56D43922E60A56FC"
+					type: "item"
+					item: "modern_industrialization:kanthal_ingot"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 14.5d
+			dependencies: ["0441C910B3660E65"]
+			id: "3D119C361DF21DDA"
+			tasks: [{
+				id: "16CDD13AC92013ED"
+				type: "item"
+				item: "modern_industrialization:implosion_compressor"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 7.0d
+			dependencies: [
+				"0E0834FBB9FBF84B"
+				"3B2FC4AB58E9AD2F"
+			]
+			id: "61C47F729721A78F"
+			tasks: [{
+				id: "4F7DF1F7BCF96567"
+				type: "item"
+				item: "modern_industrialization:sodium_battery"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.0d
+			dependencies: [
+				"0E0834FBB9FBF84B"
+				"01D6BD77EE1474A1"
+			]
+			id: "068BBC0B8F9A1214"
+			tasks: [
+				{
+					id: "24F1D54BD5A10CE1"
+					type: "item"
+					item: "modern_industrialization:chromium_dust"
+				}
+				{
+					id: "0FCEA1905AFDE4C6"
+					type: "item"
+					item: "modern_industrialization:manganese_dust"
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -0.5d
+			id: "45F791162C40DD7F"
+			tasks: [{
+				id: "1367064FE0243E34"
+				type: "item"
+				item: "modern_industrialization:salt_dust"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.0d
+			id: "3B2FC4AB58E9AD2F"
+			tasks: [{
+				id: "04E8554103B62C3B"
+				type: "item"
+				item: "modern_industrialization:sodium_dust"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.0d
+			id: "0E0834FBB9FBF84B"
+			tasks: [
+				{
+					id: "6338BB5655C2BCA4"
+					type: "item"
+					item: "modern_industrialization:bucket_chlorine"
+				}
+				{
+					id: "52071283DA8154A3"
+					type: "item"
+					item: "modern_industrialization:chromium_crushed_dust"
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -0.5d
+			id: "5C4A63884B875CBE"
+			tasks: [{
+				id: "748CF6EA658F6B52"
+				type: "item"
+				item: "modern_industrialization:ruby_dust"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			id: "01D6BD77EE1474A1"
+			tasks: [{
+				id: "4D3C5D4ECAB1E774"
+				type: "item"
+				item: "modern_industrialization:bucket_manganese_sulfuric_solution"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -0.5d
+			id: "2D75B22191A582C3"
+			tasks: [{
+				id: "0C040CDAA9020FC5"
+				type: "item"
+				item: "modern_industrialization:manganese_crushed_dust"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -0.5d
+			id: "3051064633B08C73"
+			tasks: [{
+				id: "3DE334F341EB75CA"
+				type: "item"
+				item: "modern_industrialization:bucket_sulfuric_acid"
+			}]
+		}
+		{
+			icon: "modern_industrialization:blastproof_alloy_plate"
+			x: 0.5d
+			y: 13.0d
+			id: "0441C910B3660E65"
+			tasks: [
+				{
+					id: "4A05B5F5AFB49AB6"
+					type: "item"
+					item: "modern_industrialization:mixed_ingot_blastproof"
+				}
+				{
+					id: "4FE62D1A6048A47F"
+					type: "item"
+					item: "modern_industrialization:blastproof_alloy_plate"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 13.0d
+			dependencies: [
+				"61C47F729721A78F"
+				"672DCCEF4D7357DE"
+			]
+			id: "3FC2C80B48ED5280"
+			tasks: [{
+				id: "71B6558A2646F615"
+				type: "item"
+				item: "modern_industrialization:turbo_machine_hull"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 11.0d
+			dependencies: [
+				"36E9B401FFD8F80D"
+				"01D6BD77EE1474A1"
+			]
+			id: "595325D26FE49A6C"
+			tasks: [
+				{
+					id: "7DE9385BF1007024"
+					type: "item"
+					item: "modern_industrialization:titanium_hot_ingot"
+				}
+				{
+					id: "49C3A757CA0C3809"
+					type: "item"
+					item: "modern_industrialization:titanium_ingot"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 9.5d
+			dependencies: ["2EFA4782FD878A82"]
+			id: "2070A48162B2F509"
+			tasks: [{
+				id: "35E85694D8D063E8"
+				type: "item"
+				item: "modern_industrialization:digital_circuit_board"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 14.5d
+			id: "77BD77FB30BDA0BB"
+			tasks: [{
+				id: "15D27C8A1BD184E9"
+				type: "item"
+				item: "modern_industrialization:distillation_tower"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 18.0d
+			id: "3DE51EF44AB9C9FC"
+			tasks: [{
+				id: "7F89B4CB9CFDF13B"
+				type: "item"
+				item: "modern_industrialization:industrial_tnt"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 16.0d
+			id: "43C27E3C0125FD99"
+			tasks: [
+				{
+					id: "6B6A6526431AC5C3"
+					type: "item"
+					item: "modern_industrialization:air_intake"
+				}
+				{
+					id: "5CE07CCE1CE2A486"
+					type: "item"
+					item: "modern_industrialization:bucket_nitrogen"
+				}
+			]
+		}
+		{
+			title: "Going Backwards?"
+			x: -2.0d
+			y: 20.0d
+			optional: true
+			id: "44E6DBA07057B9E7"
+			tasks: [{
+				id: "45B82825A96344CF"
+				type: "item"
+				item: "create:creative_motor"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 16.0d
+			id: "590D362D195E3CA5"
+			tasks: [{
+				id: "4E55E4A29CCEF595"
+				type: "item"
+				item: "modern_industrialization:bucket_toluene"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 20.0d
+			id: "5D39E684E40F483C"
+			tasks: [{
+				id: "483B47E9451D82C2"
+				type: "item"
+				item: "minecraft:nether_star"
+			}]
+		}
+	]
+}
