@@ -769,31 +769,6 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 1.5d
-			description: [
-				"The Staff of Traveling and Travel Anchor can be used to quickly travel around your base."
-				""
-				"Shift+Right Clicking with the Staff will teleport you a short distance in the direction you're facing. You can also right click the staff while facing a Travel Anchor to warp directly to the travel anchor."
-				""
-				"They can also be used as elevators but the Kibe elevator is a cheaper option for this."
-			]
-			dependencies: ["3724FB5B3F7621B8"]
-			id: "14F4F4474A85FFC2"
-			tasks: [
-				{
-					id: "30133769C8FCF70C"
-					type: "item"
-					item: "travelstaff:travel_staff"
-				}
-				{
-					id: "1D868719761C0ECA"
-					type: "item"
-					item: "travelstaff:travel_anchor"
-				}
-			]
-		}
-		{
 			x: -2.0d
 			y: -4.0d
 			description: ["You can store your dank storages in a dock"]
