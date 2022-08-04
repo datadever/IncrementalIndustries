@@ -113,6 +113,7 @@
 				id: "7E7C2DA6226063E5"
 				type: "item"
 				item: "modern_industrialization:bronze_dust"
+				only_from_crafting: false
 			}]
 			rewards: [{
 				id: "2D34FB86138CB0DC"
@@ -350,14 +351,14 @@
 				{
 					id: "768D03E67A31479C"
 					type: "item"
-					item: "create:white_sail"
+					item: "create:sail_frame"
 					count: 8L
 				}
 			]
 			rewards: [{
 				id: "4EA241008A9632A6"
 				type: "item"
-				item: "create:white_sail"
+				item: "create:sail_frame"
 				count: 8
 			}]
 		}

@@ -266,8 +266,8 @@ function quarry_recipes(event) {
 	event.recipes.createSplashing("modern_industrialization:stainless_steel_drill", ["kubejs:dirty_stainless_steel_drill"])
 	event.recipes.createSplashing("modern_industrialization:aluminum_drill", ["kubejs:dirty_aluminum_drill"])
 	event.recipes.createSplashing("modern_industrialization:titanium_drill", ["kubejs:dirty_titanium_drill"])
-	event.recipes.createSplashing("modern_industrialization:mob_slaughtering_drill", ["kubejs:dirty_mob_slaughtering_drill"])
-	event.recipes.createSplashing("modern_industrialization:andesite_alloy_drill", ["kubejs:dirty_andesite_alloy_drill"])
+	event.recipes.createSplashing("kubejs:mob_slaughtering_drill", ["kubejs:dirty_mob_slaughtering_drill"])
+	event.recipes.createSplashing("kubejs:andesite_alloy_drill", ["kubejs:dirty_andesite_alloy_drill"])
 	event.recipes.createSplashing("modern_industrialization:gold_drill", ["kubejs:dirty_gold_drill"])
 
 	event.recipes.modern_industrialization.quarry(
@@ -1069,6 +1069,20 @@ onEvent("recipes", event => {
 		}
 	)
 
+	event.recipes.modern_industrialization.macerator(
+		{
+			eu: 2,
+			duration: 100,
+			item_inputs: [
+				{item: "minecraft:obsidian", amount: 1}
+			],
+			item_outputs: [
+				{item: "create:powdered_obsidian", amount: 1},
+				{item: "minecraft:obsidian", amount: 1, probability: 0.75}
+			]
+		}
+	)
+
 	quarry_recipes(event)
 
 	// create crushed ores
@@ -1107,6 +1121,16 @@ onEvent("recipes", event => {
 	event.recipes.createMilling("modern_industrialization:tin_dust", "modern_industrialization:raw_tin")
 	event.recipes.createMilling("modern_industrialization:coal_dust", "modern_industrialization:coal_crushed_dust")
 	event.recipes.createMilling("modern_industrialization:redstone_dust", "modern_industrialization:redstone_crushed_dust")
+
+	// deepslate milling recipes
+	event.recipes.createMilling(Item.of("modern_industrialization:coal_crushed_dust", 2), "minecraft:deepslate_coal_ore")
+	event.recipes.createMilling(Item.of("minecraft:raw_iron", 2), "minecraft:deepslate_iron_ore")
+	event.recipes.createMilling(Item.of("minecraft:raw_copper", 2), "minecraft:deepslate_copper_ore")
+	event.recipes.createMilling(Item.of("minecraft:raw_gold", 2), "minecraft:deepslate_gold_ore")
+	event.recipes.createMilling(Item.of("minecraft:raw_gold", 2), "minecraft:nether_gold_ore")
+	event.recipes.createMilling(Item.of("modern_industrialization:redstone_crushed_dust", 2), "minecraft:deepslate_redstone_ore")
+	event.recipes.createMilling(Item.of("create:raw_zinc", 2), "create:deepslate_zinc_ore")
+	event.recipes.createMilling(Item.of("modern_industrialization:raw_tin", 2), "modern_industrialization:deepslate_tin_ore")
 
 	event.remove({type: "minecraft:crafting_shapeless", output: "modern_industrialization:bronze_dust"})
 	
@@ -1370,7 +1394,7 @@ onEvent("recipes", event => {
 	event.remove({id: "ae2:inscriber/silicon_print"})
 	event.recipes.ae2.inscriber({
 		"type": "ae2:inscriber",
-		"mode": "press",
+		"mode": "inscribe",
 		"result": {
 			"item": "ae2:printed_silicon",
 		},

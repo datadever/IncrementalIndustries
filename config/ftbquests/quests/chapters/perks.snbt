@@ -1178,5 +1178,53 @@
 				}
 			}]
 		}
+		{
+			x: 3.0d
+			y: -3.0d
+			description: ["Powdered Obsidian is a gateway to some Create transportation systems."]
+			dependencies: ["6B76929C5447507B"]
+			id: "77D6BE732FEBFF33"
+			tasks: [
+				{
+					id: "16F325678D90C2E7"
+					type: "item"
+					item: "minecraft:obsidian"
+				}
+				{
+					id: "1019EC69B8A5F4F5"
+					type: "item"
+					item: "create:powdered_obsidian"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -5.0d
+			description: [
+				"Trains are the newest addition to the Create Mod. We'll give you some tracks to play with when you've crafted the key train components, the Train Casing \\& the Train Station."
+				""
+				"Place the train tracks down where you want the train to follow, then place the train casing on the track. Instead of the block you should see a train placed on track. For more in-depth info, check out the Ponder system."
+			]
+			dependencies: ["77D6BE732FEBFF33"]
+			id: "072EBBF73BD78052"
+			tasks: [
+				{
+					id: "695FB1CCCB74B995"
+					type: "item"
+					item: "create:railway_casing"
+				}
+				{
+					id: "45198074BE5C3B44"
+					type: "item"
+					item: "create:track_station"
+				}
+			]
+			rewards: [{
+				id: "53BE29D3DB57DA3D"
+				type: "item"
+				item: "create:track"
+				count: 64
+			}]
+		}
 	]
 }

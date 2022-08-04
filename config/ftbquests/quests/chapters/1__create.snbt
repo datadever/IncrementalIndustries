@@ -273,17 +273,20 @@
 					type: "item"
 					item: "modern_industrialization:bronze_rod"
 					count: 8L
+					only_from_crafting: false
 				}
 				{
 					id: "200588BAF478038F"
 					type: "item"
 					item: "modern_industrialization:bronze_bolt"
 					count: 8L
+					only_from_crafting: false
 				}
 				{
 					id: "7637CF501A3BCA9F"
 					type: "item"
 					item: "modern_industrialization:bronze_ring"
+					only_from_crafting: false
 				}
 				{
 					id: "45BF735791DD60E4"
