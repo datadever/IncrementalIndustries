@@ -38,7 +38,9 @@
       "megane:default": 855385,
       "modern_industrialization:steam": 15658734,
       "modern_industrialization:sulfuric_heavy_fuel": 15912764,
-      "modern_industrialization:uu_matter": 16711871
+      "modern_industrialization:uu_matter": 16711871,
+      "minecraft:water": 4159204,
+      "modern_industrialization:boosted_diesel": 16620298
     },
     "blacklist": []
   },

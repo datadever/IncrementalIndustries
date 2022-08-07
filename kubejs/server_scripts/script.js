@@ -1025,6 +1025,11 @@ function qol_recipes(event) {
 	event.replaceInput({output: "extended_drawers:t2_upgrade"}, "minecraft:stick", "modern_industrialization:iron_rod")
 	event.replaceInput({output: "extended_drawers:t4_upgrade"}, "minecraft:end_rod", "modern_industrialization:titanium_rod")
 	event.replaceInput({output: "extended_drawers:t4_upgrade"}, "minecraft:shulker_box", "modern_industrialization:titanium_barrel")
+
+	event.replaceInput({output: "scannable:scanner"}, "minecraft:quartz", "modern_industrialization:lead_ingot")
+	event.remove({output: "scannable:blank_module"})
+
+	event.recipes.createCompacting("scannable:blank_module", ["minecraft:green_dye", "modern_industrialization:gold_plate"])
 }
 
 

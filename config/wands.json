@@ -15,6 +15,8 @@
   "mend_tools": true,
   "wand_mode_display_x_pos": 75.0,
   "wand_mode_display_y_pos": 100.0,
+  "wand_tools_display_x_pos": 0.0,
+  "wand_tools_display_y_pos": 100.0,
   "preview_opacity": 0.8,
   "fancy_preview": true,
   "block_outlines": true,
@@ -46,5 +48,8 @@
   "str_axe_allowed": [],
   "str_shovel_allowed": [],
   "str_hoe_allowed": [],
+  "str_shears_allowed": [
+    "minecraft:moss_block"
+  ],
   "str_denied": []
 }
