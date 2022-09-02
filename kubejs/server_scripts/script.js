@@ -20,6 +20,7 @@ function wired_redstone(event) {
 
 	event.remove({type: "wiredredstone:redstone_assembler_shaped"})
 	event.remove({type: "wiredredstone:redstone_assembler_shapeless"})
+	event.remove({mod: "rswires"})
 	
 
 	event.recipes.modern_industrialization.wiremill({
@@ -857,10 +858,9 @@ function qol_recipes(event) {
 
 	event.replaceInput({type: "minecraft:crafting_shaped", output: "dankstorage:dank_1"}, "minecraft:coal", "minecraft:leather")
 
-	// TODO: Maybe re-add if the bug is ever fixed
-	// event.replaceInput({type: "minecraft:crafting_shaped", output: "travelstaff:travel_staff"}, "minecraft:iron_ingot", "modern_industrialization:iron_rod")
-	// event.replaceInput({type: "minecraft:crafting_shaped", output: "travelstaff:travel_anchor"}, "minecraft:iron_ingot", "modern_industrialization:iron_plate")
-	// event.replaceInput({type: "minecraft:crafting_shaped", output: "travelstaff:travel_anchor"}, "minecraft:iron_block", "modern_industrialization:iron_large_plate")
+	event.replaceInput({type: "minecraft:crafting_shaped", output: "travelstaff:travel_staff"}, "minecraft:iron_ingot", "modern_industrialization:iron_rod")
+	event.replaceInput({type: "minecraft:crafting_shaped", output: "travelstaff:travel_anchor"}, "minecraft:iron_ingot", "modern_industrialization:iron_plate")
+	event.replaceInput({type: "minecraft:crafting_shaped", output: "travelstaff:travel_anchor"}, "minecraft:iron_block", "modern_industrialization:iron_large_plate")
 
 	event.remove({output: "dankstorage:dank_6"})
 	event.remove({output: "dankstorage:dank_7"})
@@ -1101,6 +1101,7 @@ onEvent("recipes", event => {
 	// remove AE2 silicon, replace recipes with MI Silicon
 	event.replaceInput({}, "ae2:silicon", "modern_industrialization:silicon_ingot")
 	event.replaceOutput({}, "ae2:silicon", "modern_industrialization:silicon_ingot")
+	event.remove({type: "modern_industrialization:macerator", output: "modern_industrialization:silicon_dust"})
 
 	// crying obsidian
 	event.recipes.createMixing("minecraft:crying_obsidian", [Item.of("minecraft:obsidian", 5), "minecraft:ghast_tear"])
@@ -1396,6 +1397,7 @@ onEvent("recipes", event => {
 	// AE2
 
 	// remove ae2 standard silicon recipe and add MI silicon press recipe
+	event.remove({output: "ae2:inscriber"})
 	event.remove({id: "ae2:inscriber/silicon_print"})
 	event.recipes.ae2.inscriber({
 		"type": "ae2:inscriber",

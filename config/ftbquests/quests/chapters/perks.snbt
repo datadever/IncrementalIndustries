@@ -1226,5 +1226,46 @@
 				count: 64
 			}]
 		}
+		{
+			x: -6.5d
+			y: 3.5d
+			description: ["The Scannable mod will allow you to scan for sets of ores or specific ores. Craft a few blank modules and store them in the items inventory for convienience."]
+			dependencies: ["6B76929C5447507B"]
+			id: "0E2EC487C33CCC8D"
+			tasks: [
+				{
+					id: "1E7F27B7D3E0D851"
+					type: "item"
+					item: "scannable:scanner"
+				}
+				{
+					id: "2C44843EE944768C"
+					type: "item"
+					item: "scannable:blank_module"
+				}
+			]
+			rewards: [{
+				id: "0E2C3B451EC9CBBF"
+				type: "item"
+				item: "scannable:blank_module"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.5d
+			description: ["The Travel Staff can let you zip around your base easily. Place the anchor down and look at it while holding the Staff to gain the ability to travel right to it. Do it by right clicking while looking at the anchor."]
+			dependencies: ["3724FB5B3F7621B8"]
+			id: "73003EC7E84BF299"
+			tasks: [{
+				id: "3C8F7C34166B40CA"
+				type: "item"
+				item: "travelstaff:travel_staff"
+			}]
+			rewards: [{
+				id: "56B708F7E752234E"
+				type: "item"
+				item: "travelstaff:travel_anchor"
+			}]
+		}
 	]
 }
